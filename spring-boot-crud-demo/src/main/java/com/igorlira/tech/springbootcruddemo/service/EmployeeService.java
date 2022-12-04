@@ -1,11 +1,10 @@
-package com.igorlira.tech.springbootcruddemo.dao;
+package com.igorlira.tech.springbootcruddemo.service;
 
 import java.util.List;
 
 import com.igorlira.tech.springbootcruddemo.entity.Employee;
 
-public interface EmployeeDAO {
-
+public interface EmployeeService {
 	public List<Employee> findAll();
 	
 	public Employee findById(int theId);
